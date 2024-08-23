@@ -1,0 +1,45 @@
+body{
+    background-color:rgb(51, 177, 250);
+}
+.row input{
+    background-color: orange;
+    border:1px;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: 700;
+}
+.container{
+    margin-left: 25px;
+    margin-right: 0;
+}
+.col-md-3,.col-md-2{
+    padding: 7px;
+}
+.row input:hover,:visited{
+    background-color: orange;
+}
+.row button{
+    background-color: orange;
+    border: 1px;
+    border-radius: 20px;
+    width: 75%;
+    font-weight: 700;
+    padding: 5px;
+}
+.col-md-10 .button{
+    width: 100%;
+}
+.alignment{
+    text-align: center;
+}
+.accordion-button,.accordion-button:hover,.accordion-button:not(.collapsed){
+    background-color: orange;
+    font-weight: 700;
+    padding: 7px;
+}
+.accordion{
+    margin-left: 50px;
+}
+.sfab:focus{
+    box-shadow: none;
+}

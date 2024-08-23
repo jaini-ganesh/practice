@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="../static/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container-fluid mt-3 full">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="custom-container">
+                    <div class="logo">
+                        <img src="../assets/TestLogo.jpg" alt="TestLogo">
+                    </div>
+                    <nav class="navbar">
+                        <div class="navbar-item">
+                            <img src="../assets/home_FILL0_wght300_GRAD0_opsz24/home_FILL0_wght300_GRAD0_opsz24.jpg" alt="Overview Icon" width="16px" height="17px">
+                            <span>Overview</span>
+                        </div>
+                        <div class="navbar-item active">
+                            <img src="../assets/group_FILL0_wght300_GRAD0_opsz24.jpg" alt="Patients Icon" width="24px" height="17px">
+                            <span>Patients</span>
+                        </div>
+                        <div class="navbar-item">
+                            <img src="../assets/calendar_today_FILL0_wght300_GRAD0_opsz24.jpg" alt="Schedule Icon" width="16px" height="17px">
+                            <span>Schedule</span>
+                        </div>
+                        <div class="navbar-item">
+                            <img src="../assets/chat_bubble_FILL0_wght300_GRAD0_opsz24.jpg" alt="Message Icon" width="19px" height="17px">
+                            <span>Messages</span>
+                        </div>
+                        <div class="navbar-item">
+                            <img src="../assets/credit_card_FILL0_wght300_GRAD0_opsz24.jpg" alt="Transactions Icon" width="22px" height="17px">
+                            <span>Transactions</span>
+                        </div>
+                    </nav>
+                    <div class="doctor-info">
+                        <img src="../assets/senior-woman-doctor-and-portrait-smile-for-health-2023-11-27-05-18-16-utc.jpg" alt="Doctor Image" width="44px" height="44px">
+                        <div class="doctor-details">
+                            <strong class="doctor-name">Dr. Jose Simmons</strong>
+                            <p class="doctor-specialty">General Practitioner</p>
+                        </div>
+                        <div class="doctor-icons">
+                            <img src="../assets/settings_FILL0_wght300_GRAD0_opsz24.jpg" alt="Settings Icon" width="19px" height="20px">
+                            <img src="../assets/more_vert_FILL0_wght300_GRAD0_opsz24.jpg" alt="Three Dots Icon"  width="4px" height="18px" style="justify-items: center;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Column 1: col-md-3 with 100% height -->
+            <div class="col-md-3 col-12 vh-100">
+                <div class="container-1 scrollable">
+                    <div class="title">
+                        <span>Patients</span>
+                        <img src="../assets/search_FILL0_wght300_GRAD0_opsz24.jpg"  id="search-icon" alt="searchicon" width="18px" height="18px">
+                    </div>
+                    
+                        <!-- Repeat this block for each patient -->
+                        <div class="patient-item">
+                            <img src="../assets/Layer 8/Layer 8.jpg" alt="Patient Icon" class="patient-icon">
+                            <div class="patient-info">
+                                <div class="patient-name">Emily Williams</div>
+                                <div class="patient-details">
+                                    <span class="patient-sex">Female</span>, <span class="patient-age">18</span>
+                                </div>
+                            </div>
+                            <img src="../assets/more_horiz_FILL0_wght300_GRAD0_opsz24.jpg" width="18px" height="4px" style="margin-left: auto;">
+                        </div>
+                        <div class="patient-item">
+                            <img src="../assets/Layer 1.png" alt="Patient Icon" class="patient-icon">
+                            <div class="patient-info">
+                                <div class="patient-name">Ryan Johnson</div>
+                                <div class="patient-details">
+                                    <span class="patient-sex">Male</span>, <span class="patient-age">45</span>
+                                </div>
+                            </div>
+                            <img src="../assets/more_horiz_FILL0_wght300_GRAD0_opsz24.jpg" width="18px" height="4px" style="margin-left: auto;">
+                        </div>
+                        <div class="patient-item">
+                            <img src="../assets/Layer 3.png" alt="Patient Icon" class="patient-icon">
+                            <div class="patient-info">
+                                <div class="patient-name">Brandon Mitchell</div>
+                                <div class="patient-details">
+                                    <span class="patient-sex">Male</span>, <span class="patient-age">36</span>
+                                </div>
+                            </div>
+                            <img src="../assets/more_horiz_FILL0_wght300_GRAD0_opsz24.jpg" width="18px" height="4px" style="margin-left: auto;">
+                        </div>
+                        <div class="patient-item active">
+                            <img src="../assets/Layer 2.png" alt="Patient Icon" class="patient-icon">
+                            <div class="patient-info">
+                                <div class="patient-name">Jessica Taylor</div>
+                                <div class="patient-details">
+                                    <span class="patient-sex">Female</span>, <span class="patient-age">28</span>
+                                </div>
+                            </div>
+                            <img src="../assets/more_horiz_FILL0_wght300_GRAD0_opsz24.jpg" width="18px" height="4px" style="margin-left: auto;">
+                        </div>
+                        <div class="patient-item">
+                            <img src="../assets/Layer 6.png" alt="Patient Icon" class="patient-icon">
+                            <div class="patient-info">
+                                <div class="patient-name">Samantha Johnson</div>
+                                <div class="patient-details">
+                                    <span class="patient-sex">Female</span>, <span class="patient-age">45</span>
+                                </div>
+                            </div>
+                            <img src="../assets/more_horiz_FILL0_wght300_GRAD0_opsz24.jpg" width="18px" height="4px" style="margin-left: auto;">
+                        </div>
+                        <div class="patient-item">
+                            <img src="../assets/Layer 12.png" alt="Patient Icon" class="patient-icon">
+                            <div class="patient-info">
+                                <div class="patient-name">Ashley Martinez</div>
+                                <div class="patient-details">
+                                    <span class="patient-sex">Female</span>, <span class="patient-age">54</span>
+                                </div>
+                            </div>
+                            <img src="../assets/more_horiz_FILL0_wght300_GRAD0_opsz24.jpg" width="18px" height="4px" style="margin-left: auto;">
+                        </div>
+
+                        <div class="patient-item">
+                            <img src="../assets/Layer 10.png" alt="Patient Icon" class="patient-icon">
+                            <div class="patient-info">
+                                <div class="patient-name">Olivia Brown</div>
+                                <div class="patient-details">
+                                    <span class="patient-sex">Female</span>, <span class="patient-age">32</span>
+                                </div>
+                            </div>
+                            <img src="../assets/more_horiz_FILL0_wght300_GRAD0_opsz24.jpg" width="18px" height="4px" style="margin-left: auto;">
+                        </div>
+
+                        <div class="patient-item">
+                            <img src="../assets/Layer 9.png" alt="Patient Icon" class="patient-icon">
+                            <div class="patient-info">
+                                <div class="patient-name">Tyler Davis</div>
+                                <div class="patient-details">
+                                    <span class="patient-sex">Male</span>, <span class="patient-age">19</span>
+                                </div>
+                            </div>
+                            <img src="../assets/more_horiz_FILL0_wght300_GRAD0_opsz24.jpg" width="18px" height="4px" style="margin-left: auto;">
+                        </div>
+
+                        <div class="patient-item">
+                            <img src="../assets/Layer 4.png" alt="Patient Icon" class="patient-icon">
+                            <div class="patient-info">
+                                <div class="patient-name">Kevin Anderson</div>
+                                <div class="patient-details">
+                                    <span class="patient-sex">Male</span>, <span class="patient-age">30</span>
+                                </div>
+                            </div>
+                            <img src="../assets/more_horiz_FILL0_wght300_GRAD0_opsz24.jpg" width="18px" height="4px" style="margin-left: auto;">
+                        </div>
+
+                        <div class="patient-item">
+                            <img src="../assets/Layer 5.png" alt="Patient Icon" class="patient-icon">
+                            <div class="patient-info">
+                                <div class="patient-name">Dylan Thompson</div>
+                                <div class="patient-details">
+                                    <span class="patient-sex">Male</span>, <span class="patient-age">36</span>
+                                </div>
+                            </div>
+                            <img src="../assets/more_horiz_FILL0_wght300_GRAD0_opsz24.jpg" width="18px" height="4px" style="margin-left: auto;">
+                        </div>
+
+                        <div class="patient-item">
+                            <img src="../assets/Layer 7.png" alt="Patient Icon" class="patient-icon">
+                            <div class="patient-info">
+                                <div class="patient-name">Nathan Evans</div>
+                                <div class="patient-details">
+                                    <span class="patient-sex">Male</span>, <span class="patient-age">58</span>
+                                </div>
+                            </div>
+                            <img src="../assets/more_horiz_FILL0_wght300_GRAD0_opsz24.jpg" width="18px" height="4px" style="margin-left: auto;">
+                        </div>
+                        <!-- End of patient block -->
+                        <!-- Repeat for additional patients... -->
+                </div>
+            </div>
+            
+            <!-- Main Content Area: col-md-6 -->
+            <div class="col-md-6">
+                <div class="container-2">
+                    <div class="title">
+                        <p>Diagnosis History</p>
+                    </div>
+                    <h2>Ganesh</h2>
+                    <div class="custom-card respiratory">
+                        <img src="../assets/respiratory rate.jpg">
+                        <div class="recorded-values-heading">
+                            <p>Respiratory Rate</p>
+                        </div>
+                        <div class="recorded-values">
+
+                        </div>
+                        <div class="status">
+                            <p>Normal</p>                            
+                        </div>
+                    </div>
+                    <div class="custom-card temperature">
+                        <img src="../assets/temperature.jpg">
+                        <div class="recorded-values-heading">
+                            <p>Temperature</p>
+                        </div>
+                        <div class="recorded-values">
+
+                        </div>
+                        <div class="status">
+                            <p>Normal</p>
+                        </div>
+                    </div>
+                    <div class="custom-card heartrate">
+                        <img src="../assets/HeartBPM.jpg">
+                        <div class="recorded-values-heading">
+                            <p>Heart Rate</p>
+                        </div>
+                        <div class="recorded-values">
+                            
+                        </div> 
+                        <div class="status">
+                            
+                            <p>Lower than Average</p>
+                        </div>           
+                    </div>
+                
+                </div>
+                <div class="container-3">
+                    <div class="title">
+                        <p>Diagnostic List</p>
+                    </div>
+                    <div class="table-container">
+                        <table class="diagnostic-table">
+                            <thead>
+                                <tr>
+                                    <th>Problem/Diagnosis</th>
+                                    <th>Description</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Hypertension</td>
+                                    <td>Chronic high blood pressure</td>
+                                    <td>Under Observation</td>
+                                </tr>
+                                <tr>
+                                    <td>Type 2 Diabetes</td>
+                                    <td>Insulin resistance and elevated blood sugar</td>
+                                    <td>Cured</td>
+                                </tr>
+                                <tr>
+                                    <td>Asthma</td>
+                                    <td>Recurrent episodes of bronchial constriction</td>
+                                    <td>Inactive</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Column 2: col-md-3 with heights 70% and 20% -->
+            <div class="col-md-3">
+                <div class="container-4">
+
+                </div>
+                <div class="container-5 scroll-2">
+                    <div class="title">
+                        <p>Lab Reports</p>
+                    </div>
+                    <div class="lab-results-list">
+                        <div class="lab-result-item">
+                            <span>Blood Tests</span>
+                            <img src="../assets/download_FILL0_wght300_GRAD0_opsz24 (1).jpg" alt="Download Icon" class="download-icon">
+                        </div>
+                        <div class="lab-result-item">
+                            <span>CT Scans</span>
+                            <img src="../assets/download_FILL0_wght300_GRAD0_opsz24 (1).jpg" alt="Download Icon" class="download-icon">
+                        </div>
+                        <div class="lab-result-item">
+                            <span>Radiology Reports</span>
+                            <img src="../assets/download_FILL0_wght300_GRAD0_opsz24 (1).jpg" alt="Download Icon" class="download-icon">
+                        </div>
+                        <div class="lab-result-item">
+                            <span>X-Rays</span>
+                            <img src="../assets/download_FILL0_wght300_GRAD0_opsz24 (1).jpg" alt="Download Icon" class="download-icon">
+                        </div>
+                        <div class="lab-result-item">
+                            <span>Urine Test</span>
+                            <img src="../assets/download_FILL0_wght300_GRAD0_opsz24 (1).jpg" alt="Download Icon" class="download-icon">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

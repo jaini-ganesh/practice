@@ -1,0 +1,323 @@
+/* Ensure the body takes the full height */
+html, body {
+    height: 110%;
+    margin-left: 18px;
+    margin-right: 18px;
+    background-color: #f6f7f8;
+}
+.full{
+    background-color: #f6f7f8;
+}
+/* Full height container */
+.vh-100 {
+    height: 100vh;
+}
+
+/* Container-1: col-md-3 with 100% height */
+.container-1 {
+    background-color: #ffffff; /* Adjust as needed */
+    height: 100%;
+    margin-top: 32px;
+    border: 1px;
+    border-radius: 16px;
+    overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.title {
+    font-weight: bolder;
+    font-size: 24px;
+    font-family: Manrope;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.title #search-icon {
+    margin-left: 140px;
+}
+/* Patient item styling */
+.patient-item {
+    display: flex;
+    width:100%;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+}
+
+/* Patient icon styling */
+.patient-icon {
+    width: 40px; /* Adjust as needed */
+    height: 40px; /* Adjust as needed */
+    border-radius: 50%;
+}
+
+/* Patient info container styling */
+.patient-info {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Patient name styling */
+.patient-name {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+}
+
+/* Patient details styling */
+.patient-details {
+    font-size: 14px;
+    color: gray;
+}
+
+/* Sex and age styling */
+.patient-sex, .patient-age {
+    font-weight: normal;
+}
+
+/* Other existing styles... */
+
+/* Container styling */
+.custom-container {
+    height: 15vh;
+    background-color: white;
+    border-radius: 70px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Space out the logo, navbar, and doctor info */
+    border: 1px;
+    padding-left: 270px; /* Adjust padding based on logo width */
+}
+
+/* Logo styling */
+.logo {
+    position: absolute;
+    left: 32px;
+    width: 211px;
+    height: 48px;
+}
+/* Navbar item styling */
+.navbar-item {
+    padding: 5px 10px;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: Manrope;
+    margin-right: 5px;
+}
+.navbar{
+    margin: auto;
+    
+}
+
+/* Navbar item active state */
+.navbar-item.active{
+    background-color: #01F0D0;
+    color: black;
+    padding: 10px;
+    border-radius: 40px;
+}
+.patient-item.active{
+    background-color: #D8FCF7;
+    color: black;
+}
+
+/* Doctor Info styling */
+.doctor-info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-right: 30px; /* Space from the right edge of the container */
+}
+
+
+
+.doctor-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.doctor-name {
+    font-size: 14px;
+    margin: 0;
+}
+
+.doctor-specialty {
+    font-size: 14px;
+    color: gray;
+    margin: 0;
+}
+    
+.doctor-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+}
+
+.scrollable::-webkit-scrollbar{
+    width: 3px; 
+}   
+    
+.scrollable::-webkit-scrollbar-track {
+    background: #E3E4E6; 
+    border-radius: 6px;
+    margin-top: 80px;      
+}
+.scroll-2::-webkit-scrollbar {
+    width: 3px;
+}
+
+.scroll-2::-webkit-scrollbar-track {
+    background: #E3E4E6;
+    border-radius: 6px;
+}
+
+.scroll-2::-webkit-scrollbar-thumb {
+    background-color: black;
+    border-radius: 6px;
+    min-height: 5px;
+}
+    
+.scrollable::-webkit-scrollbar-thumb {
+    background-color: black; /* Custom color for the scrollbar thumb */
+    border-radius: 6px;
+    min-height: 5px;
+}
+.container-2{
+    height: 60%;
+    background-color: #ffffff;
+    border:1px;
+    margin-top: 32px;
+    border-radius: 16px;
+}
+.custom-card {
+    width: 30%;
+    height:50%;
+    color: black;
+    border: 1px;
+    border-radius: 12px;
+}
+.respiratory{
+    background-color: #E0F3FA;
+    float:left;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+.temperature{
+    background-color: #FFE6E9;
+    float: left;
+    margin-right: 2.5%;
+
+}
+.heartrate{
+    background-color: #FFE6F1;
+    float: left;
+    margin-right: 2.5%;
+}
+.custom-card img{
+    border-radius: 70px;
+    margin-top: 16px;
+    margin-left: 16px;
+    width: 70px;
+    height: 70px;
+}
+.recorded-values-heading{
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: medium;
+    margin-top: 16px;
+    margin-left: 16px;
+}
+.status p{
+    font-family: Manrope;
+    font-size: 14px;
+    margin-top: 16px;
+    margin-left: 16px;
+}
+.recorded-values{
+    font-weight:bolder;
+    font-size: 30px;
+}
+.container-3{
+    height: 38%;
+    background-color: #ffffff;
+    border:1px;
+    margin-top: 15px;
+    border-radius: 16px;
+
+}
+.table-container {
+    overflow-x: auto;
+    overflow-y: auto;
+    margin-left: 16px;
+}
+
+/* Diagnostic table styling */
+.diagnostic-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.diagnostic-table th,
+.diagnostic-table td {
+    border: none;
+    padding: 7px;
+    text-align: left;
+    font-size: 14px;
+
+}
+
+.diagnostic-table th {
+    background-color: #F6F7F8;
+    font-weight: bold;
+    border-radius: 20px;
+}
+.container-4{
+    height: 70%;
+    background-color: #ffffff;
+    border:1px;
+    margin-top: 10px;
+    border-radius: 16px;
+}
+.container-5{
+    height: 30%;
+    background-color: #ffffff;
+    border:1px;
+    margin-top: 20px;
+    border-radius: 16px;
+    width: 100%;
+    max-width: 300px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.lab-results-list {
+    max-height: 150px;
+    overflow-y: auto;
+    margin-left: 16px;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+.lab-result-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #e0e0e0;
+    box-sizing: border-box;
+}
+
+.lab-result-item:last-child {
+    border-bottom: none;
+}
+
+.download-icon {
+    width: 18px;
+    height: 18px;
+}
+

@@ -1,0 +1,20 @@
+.container {
+    width: 100%;
+    max-width: 1140px; /* Adjust as needed */
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  
+  .col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding-right: 15px;
+    padding-left: 15px;
+  }

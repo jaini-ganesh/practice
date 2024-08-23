@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Project</title>
+    <style>
+        .char-button{
+            display: block;
+            margin: 10px auto;
+            padding: 10px;
+            width:30%;
+        }
+        .name{
+            text-align: center;
+        }
+        #ima{
+            width: 40%;
+            height:40%;
+            display: block;
+            margin:10px auto;
+        }
+    </style>
+</head>
+<body>
+    <button class="char-button">Click me for a Surprise!!!</button>
+    <h2 class="name"></h2>
+    <img id="ima">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.char-button').on('click',function(){
+                const x=Math.ceil(Math.random()*88);
+                $.get(`https://akabab.github.io/starwars-api/api/id/${x}.json`,function(data){
+                    $('.name').text(data['name']);
+                    if(data['image']){
+                        $('#ima').attr('src',`${data['image']}`);
+                    }else{
+                        $('#ima').attr('alt',"I am Sorry!! I can't find any image for this character");
+                        $('#ima').attr('src', '');
+                    }   
+                })
+            })
+        })
+    </script>
+</body>
+</html>

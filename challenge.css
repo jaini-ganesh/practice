@@ -1,0 +1,39 @@
+h2{
+    text-align: center;
+    margin-bottom: 0;
+}
+body{
+    margin: 0;
+}
+.top-section{
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 17%;
+    justify-content:center;
+    margin-bottom: 15px;
+    
+}
+.top-section button{
+    color:white;
+    border:1px solid white;
+    border-radius: 5px;
+    padding: 12px;
+    background-color: green;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.main-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-content button{
+    padding: 7px;
+    border:none;
+    border-radius: 5px;
+    color:white;
+    background-color: rgb(20, 100, 221);
+    cursor: pointer;
+}
